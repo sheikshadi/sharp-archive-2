@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/bcb7867ef3.js" crossorigin="anonymous"></script>
+    <style>
+        .logo-info{
+            display: flex;
+            justify-content: space-between;
+        }
+        #info{
+            background-color: #E4801D;
+            color: white;
+            border: none;
+            font-size: 18px;
+            padding: 10px;
+            padding-left: 5px;
+            padding-right: 80px;
+            border-radius: 20px;
+    }
+
+    #btn-info{
+        border: none;
+        background-color: #E4801D;
+        color: white;
+        font-size: 18px;
+        padding: 10px;
+        padding-left: 5px;
+        /* padding-right: 30px; */
+        border-radius: 20px;
+    }
+   #btn-das{
+        background-color: #E4801D;
+        color: white;
+        padding: 10px;
+        font-size: 18px;
+        padding-left: 5px;
+        padding-right: 80px;
+        border-radius: 20px;
+        border: none;
+   }
+   #secarh{
+    background-color: #fff;
+    /* color: white; */
+    border: 1px solid #E4801D;
+    font-size: 18px;
+    padding-right: 250px;
+    border-radius: 20px;
+   }
+  
+   #loop{
+    padding-top: 10px;
+   }
+   .map2{
+    display: flex;
+    background-color: #ffd9bf;
+    justify-content: space-around;
+    color: black;
+   }
+   .top-info{
+    background-color: #f1f2f6;
+    width: 100%;
+   }
+  .print-info{
+    display: flex;
+    /* grid-template-columns: auto auto; */
+    padding-top: 10px;
+  }
+  .home-info{
+    background-color: #E4801D;
+    width: 75%;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: #fff;
+    padding-top: 10px;
+  }
+  .page-info{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffd9bf;
+    font-size: 18px;
+    color: black;
+    padding: 10px 10px;
+  }
+  .page-up{
+    background-color: #E4801D;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    padding-top: 25px;
+    color: #fff;
+  }
+  .grid-containar{
+    display: flex;
+  }
+  .menubar-ingo{
+    width: 25%;
+  }
+  .sub-inrow{
+    width: 50%;
+    background-color: #F1F2F6;
+    border-radius: 10px;
+  }
+  .menu-bardae{
+    width: 25%;
+  }
+  .flex-info{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1F2F6;
+    border-radius: 2px;
+  }
+  .flx-info{
+    background-color: #E4801D;
+    display: flex;
+    border-radius: 2px;
+  }
+  .flex-infoo{
+    display: flex;
+    background-color: #DEDEDE;
+    border-radius: 2px;
+  }
+ #flex-itrm{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+ }
+ .scroll{
+    padding-top: 35px;
+    padding-left: 189px;
+}
+.scrol{
+    padding-top: 53px;
+    padding-left: 6px;
+}
+#font-info{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.fa-solid{
+    padding-top: 3px;
+}
+#btn-watch{
+    padding-left: 16px;
+    margin-left: 40px;
+    border: none;
+    background-color: #FFD6D6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    color: #A22A2A;
+}
+.fa-brands{
+    background-color: #A22A2A;
+    padding: 2px 2px 2px 2px;
+    border-radius: 20px;
+    color: #fff;
+}
+#for-scr{
+    padding-left: 20px;
+}
+#flex-itr{
+    color: #fff;
+    padding-left: 3px;
+}
+#fon-info{
+    color: #fff;
+}
+#change{
+    color: #fff;
+    padding-top: 6px;
+}
+#date{
+    padding-top: 18px;
+}
+#prince{
+    padding-top: 6px;
+}
+
+.map-header1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+#form-bol{
+    font-weight: bold;
+    padding-top: 3px;
+}
+#date-vivo{
+   width: 100%;
+}
+#feed-back{
+    font-size: 20px;
+    color: #E4801D;
+}
+#btn-feed-back{
+    border: 2px solid #E4801D;
+    background-color: #fff;
+    color: #E4801D;
+    font-size: 18px;
+    border-radius: 34px;
+    padding: 10px 25px 10px 25px;
+    margin-right: 10px;
+}
+.wrha-horiz{
+    border: 1px solid #E4801D;
+}
+.meta-adobe{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 18px;
+    padding-top: 5px;
+    grid-row-gap: 10px;
+}
+.menu-bardae{
+    padding-left: 10px;
+}
+#scan-lock{
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+#lock-scaner{
+    text-align: center;
+}
+#intel{
+    color: #E4801D;
+    font-size: 18px;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.sect-user{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E4801D;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+}
+.document{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5px;
+    grid-row-gap: 3px;
+}
+#btn-infoo{
+    border: none;
+    background-color: #A22A2A;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+#varticle-line{
+    border: 1px solid #E4801D;
+    left: 507px;
+    display: block;
+    height: 768px;
+    position: absolute;
+    margin-top: 127px;
+}
+        
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div id="varticle-line"></div> 
+            <section>
+                <div class="logo-info">
+                     <button id="info">Feeds<i class="fa-solid fa-circle-down"></i></button>
+                     <button id="btn-info">Incomming</button>
+                     <button id="btn-das">Outgoing</button>
+                     <button id="info">All Dates</button>
+                     <button id="info">Option</button>
+                     <button id="secarh"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </section>
+            <div class="print-info">
+                <div class="home-info">Real time View
+                    <div class="page-info">
+                        <span>Messages</span>
+                        <span>Content</span>
+                        <span><i class="fa-solid fa-square-plus"></i></span>
+                    </div>
+                </div>
+                <div class="page-up">User Information</div>
+            </div>
+            <section class="grid-containar">
+             <!-- eita holo manubar -->
+             <div class="menubar-ingo">
+                <div class="flex-info">
+                    <div>
+                        <p id="flex-itrm">Facebook</p>
+                         <p id="font-info">
+                       Olenna you have 27 new...<br>
+                        Just thourght i'd share great news...</p>
+                        </div>
+                        <div class="scroll">
+                            <span><i class="fa-solid fa-square-plus"></i></span>
+                            <p>11:05 am</p>
+                        </div>
+                   </div>
+                   
+                   <div class="flex-infoo">
+                    <div>
+                        <p id="flex-itrm">Elena Casarosa</p>
+                         <p id="font-info">
+                            Let's have dinner on Sunday<br>
+                            Hi Olenna, Silva and Titus. It's was...</p>
+                        </div>
+                        <div class="scrol">       
+                            <p id="for-scr">Sep 27</p>
+                        </div>
+                   </div>
+
+                   <div class="flex-info">
+                    <div>
+                        <p id="flex-itrm">Elena Casarosa <span><button id="btn-watch"><i class="fa-brands fa-font-awesome"></i>Complaint</button></span> </p>
+                         <p id="font-info">
+                            EC Photography Grand Opening!<br>
+                            -- Elenna Casarosa Elegent store is...</p>
+                        </div>
+                        <div class="scroll">
+                            <span><i class="fa-solid fa-square-plus"></i></span>
+                            <p id="prince">Sep 25</p>
+                        </div>
+                   </div>
+
+
+                   <div class="flx-info">
+                    <div>
+                        <p id="flex-itr">jfillory (4)<span><button id="btn-watch"><i class="fa-brands fa-font-awesome"></i>Fraud</button></span> </p>
+                         <p id="fon-info">
+                            The Littlest Toad Feedback<br>
+                            I've invited you to fill out a form which...</p>
+                        </div>
+                        <div class="scroll">
+                            <span><i class="fa-solid fa-square-plus"></i></span>
+                            <p id="change">Sep 25</p>
+                        </div>
+                   </div>
+
+
+                   <div class="flex-info">
+                    <div>
+                        <p id="flex-itrm">no-replay</p>
+                         <p id="font-info">
+                            Your Account Information with...<br>
+                            Hello, Thank you for opening your...</p>
+                        </div>
+                        <div class="scroll">
+                            <p id="date">9/2/2021</p>
+                        </div>
+                   </div>
+
+                   <div class="flex-infoo">
+                    <div>
+                        <p id="flex-itrm">Google</p>
+                         <p id="font-info">
+                            Security Alert<br>
+                            Olenna Mason New device signed...</p>
+                        </div>
+                        <div class="scrol">       
+                            <p id="for-scr">6/15/2021</p>
+                        </div>
+                   </div>
+             </div>
+
+               <div class="sub-inrow">
+                <div class="map-header1"> 
+                        <div>
+                            <p><span id="form-bol">Subject:</span>The Littlest Toad Feedback</p>
+                            <p><span id="form-bol">From:</span>Bob Smith (bobsmith123@gmail.com)</p>
+                            <p><span id="form-bol">To:</span>Janet Fillory (jfillory@gmail.com)</p>
+                            <p>I’ve invited you to fill out a form which will help us help you.Thank you so much for meeting with me today. It was such a pleasure to learn more about the team and position, and I’m very excited about the opportunity to join [Company Name] and help [bring in new clients/develop world-class content/anything else awesome you would be doing] with your team.</p>
+                            <h2 id="feed-back"><i class="fa-solid fa-right-from-bracket"></i>Feedback.pdf</h2>
+                            <button id="btn-feed-back">Signature</button>
+                            <button id="btn-feed-back">Signature</button>
+
+                            <hr class="wrha-horiz">
+                          
+                            <div class="meta-adobe">
+                                
+                                <div>Janet Fillory (jfillory@gmail.com)</div>
+                                <div>September 20, 2021 10:11 am</div>
+                                
+                                <div>Bob Smith (bobsmith123@gmail.com)</div>
+                                <div>September 20, 2021 10:11 am</div>
+                                <div>Bob Smith (bobsmith123@gmail.com)</div>
+                                <div>September 21, 2021 1:55 pm</div>
+                              
+                            </div>
+                        </div>   
+                        <p id="date-vivo">September 20, 2021 8:56 am</p>
+                </div>
+               </div>
+               <!-- UserInformation -->
+
+               <div class="menu-bardae">
+                <div>
+                    <p id="scan-lock">Jhon Smith</p>
+                </div>
+            <div>
+                <p id="lock-scaner">Connect Since: March 15, 2022</p>
+            </div>
+            <div class="clnatril">
+                <h4 id="intel">Title</h4>
+                <p>Senior Sales Reprehensive</p>
+                <h4 id="intel">Email</h4>
+                <p>bob@example.com</p>
+                <h4 id="intel">Address</h4>
+                <p>123 Anywhere St</p>
+                <p>Springfield, CA 12345</p>
+                <h4 id="intel">Phone</h4>
+                <p>303-555-1234</p>
+            </div>
+            <div>
+                <h3 id="intel">All Feeds in Group</h3>
+            </div>
+            <div class="user">
+                <span>Source</span>
+                <span>Name</span>
+                <span>Download</span>
+            </div>
+            <div class="sect-user">
+                <span>Email</span>
+                <span>bob@example.com</span>
+                <span><i class="fa-solid fa-circle-arrow-down"></i></span>
+            </div>
+            <div class="document">
+               
+        
+                <div>Twitter</div>
+                <div>GreenStarAdv</div>
+                <div><i class="fa-solid fa-circle-arrow-down"></i></div>
+                <div>Facebook</div>
+                <div>GreenStarAdv</div>
+                <div><i class="fa-solid fa-circle-arrow-down"></i></div>
+                <div>LinkedIn</div>
+                <div>GreenStarAdv</div>
+                <div><i class="fa-solid fa-circle-arrow-down"></i></div>
+               
+                <div><i class="fa-solid fa-circle-arrow-down"></i></div>  
+            </div>
+            <div>
+                <button id="btn-info"><i class="fa-brands fa-font-awesome"></i>2 Open Flags</button>
+                <button id="btn-infoo">View Flag</button>
+            </div>
+               </div>
+   
+            </section>
+        </header>
+    </main>
+</body>
+</html>
